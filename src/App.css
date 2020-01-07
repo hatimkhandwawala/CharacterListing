@@ -1,0 +1,132 @@
+.content{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.containerFluid{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  text-align: center;
+}
+
+h2, h3, h4{
+  margin: 0;
+}
+
+.filterWrapper{
+  width: 25%;
+    display: inline-block;
+}
+
+.filterOption {
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+.filterOptionHeader{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.charactersWraper{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.selectedFilterWrapper{
+  width:100%;
+  padding: 10px;
+}
+
+.FilterWrapper div {
+  width: 250px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.character{
+  position: relative;
+  width: 20%;
+  padding: 5px;
+  height: 450px;
+  background-color: black;
+  margin: 10px;
+  color: white;
+}
+
+
+.characterMetaData{
+  top: 190px;
+  background-color: #00000063;
+  position: absolute;
+  width: 97%;
+  min-height: 55px;
+}
+
+.characterDetails-set{
+  min-height: 2em;
+  border-bottom: 1px solid grey;
+}
+
+
+.characterMetaData div{
+  font-size: 10px;
+  display: inline;
+}
+
+.characterImage{
+  width: 100%;
+  height: 15em;
+}
+
+.label {
+  display: inline-block;
+  width: 25% !important;
+  font-size: 12px;
+}
+.label-Value {
+  display: inline-block;
+  width: 75% !important;
+  text-align: right;
+  font-size: 12px;
+  color: #ffb092;
+}
+
+
+.sortWrapper{
+  width: 100%;
+  text-align: right;
+}
+
+.selectedFilter{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.filterItem {
+  min-width: 80px;
+  border: 1px solid #8e8e8e;
+  background-color: #cecece;
+  margin: 10px;
+  padding: 5px;
+}
+
+.recordCount{
+  width: 100%;
+  padding: 10px;
+}
+
+.pagination{
+  text-align: right;
+}
+.pagination input {
+  width: 100px;
+  margin: 5px;
+}
